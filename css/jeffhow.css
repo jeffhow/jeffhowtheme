@@ -1,0 +1,310 @@
+/**=========================================================================**/
+
+/* THE BASICS *****************************************************/
+
+body{
+  background-color: #ECF0F1;
+}
+
+h1, h2, h3{
+  font-family: 'Luckiest Guy', cursive;
+  color: #E74C3C;
+}
+
+h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+p, a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  font-weight: 700;
+  color: #566573;
+}
+
+a:focus, a:hover{
+  color: #212F3C;
+}
+
+
+/* NAVBAR ******************************************************/
+.navbar-brand{
+  -webkit-filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .4));
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .4));
+}
+
+.navbar-default{
+  background-color: #ECF0F1;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-weight: 700;
+  color: #566573;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+  color: #212F3C;
+}
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: #566573;
+  color: #ECF0F1;
+}
+
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #212F3C;
+  color: #ECF0F1;
+}
+
+.navbar-collapse{
+  border-top-width: 0;
+}
+
+#jeffhowlogo:hover .jeffhowred,
+#jeffhowlogo:focus .jeffhowred{ 
+  fill: #EC7063; 
+}
+
+.jeff-search-bar{
+  padding-top: 3px;
+  width: 100%;
+}
+.jeff-search-bar .input-group-addon{
+  width:14px !important;
+}
+
+/* JUMBOTRON *******************************************************/
+.jumbotron h1{
+  color: #E74C3C;
+  text-shadow: 2px 2px #fff;
+  margin-top: 0;
+}
+
+.container .jumbotron{
+  border-radius: 0;
+  padding: 0;
+}
+
+.jumbotron .how-teaser{
+  background-color: rgba(44, 62, 80, 0.5); /* #2C3E50 @50% opacity */
+  padding:30px;
+  padding-right:30px;
+  padding-bottom: 30px;
+  padding-top:15px;
+}
+
+.jumbotron .row{
+  margin:0;
+}
+
+.how-teaser p{
+  color: #ECF0F1;
+  font-size: 16px;
+}
+
+.jumbotron{
+  margin-bottom:0;
+}
+
+/* SECTIONS *******************************************************/
+
+.section-heading{
+  text-shadow: 2px 2px #fff, 5px 5px 2px #2C3E50;
+  font-size: 72px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+/* SPAN = Background lines */
+.section-heading span {
+  display: inline-block;
+  position: relative;
+  margin-left:30px;
+}
+
+.section-heading span:before,
+.section-heading span:after {
+  background-color: #E74C3C;
+  content: "";
+  position: absolute;
+  height: 12px;
+  top: 30px;
+  width: 1000px;
+}
+.section-heading span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+.section-heading span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+
+/* POST PANELS ***************************************************/
+.front-col{
+  padding:15px;
+}
+.front-panel{
+  background-color: #212F3C;
+  color: #ECF0F1;
+  padding: 15px;
+  height: 100%;
+  border-right: solid 10px #566573;
+  border-left: solid 10px #566573;
+}
+/* PROFILE PANEL / ASIDE PANELS ************************************/
+.profile-panel, .aside-panel{
+  background-color: #566573;
+  color: #ECF0F1;
+  padding: 15px;
+  height: 100%;
+  border-right: solid 10px #212F3C;
+  border-left: solid 10px #212F3C;
+}
+
+.profile-panel h3{
+  color:#fff;
+  text-shadow: 3px 3px #212F3C;
+}
+
+.aside-panel{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.aside-panel a{
+  color:#ECF0F1;
+}
+
+/* BUTTONS *******************************************************/
+.btn-primary{
+  background-color: #AD392D;
+  border-width:0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: #E74C3C;
+}
+
+/* WIDGET SIDEBAR ***********************************************/
+
+.widgets-area{
+  border: solid #B1B4B5 1px;
+  padding: 15px;
+  background-color: #fff;
+
+}
+
+.site-content{
+  background-color: #fff;
+  border: solid #B1B4B5 1px;
+  -webkit-filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .4));
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .4));
+  margin-bottom:15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/** COMMENTS SECTIONS ***********************************************/
+.comment-list{
+  padding-left: 0;
+}
+.comment-list, .comment-list .children{
+  list-style-type: none;
+}
+.comment-body, .comment-author{
+  margin-bottom: 10px;
+}
+
+.comment-body .avatar{
+
+  float:left;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.comment-metadata a{
+  font-weight: normal;
+  font-size: 12px;
+  font-style: italic;
+} 
+
+.fn{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.comment-content{
+  clear:both;
+  background-color: #fff;
+  border: solid #B1B4B5 1px;
+  padding:15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.reply{
+  border-top: solid 1px #ccc;
+  padding-top: 5px;
+}
+
+/* FOOTER ****************************************/
+.social-links a, .social-links a:hover, .social-links a:focus{
+  text-decoration: none;
+}
+
+.social-links{
+  margin-right:10px;
+}
+
+.navbar-default .copyright{
+  color: #2C3E50;
+}
+
+/* SINGLE PAGE POSTS ***********************************/
+.entry-image{
+  height: 200px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.thumbnail-img{
+  margin-right: 10px;
+}
+
+/* SEARCH RESULTS **************************************/
+.separator{
+  border-top: solid 1px #566573;
+}
+.search-heading h2{
+  display:inline;
+}
+
+/**
+Color  Light      Midtone    Dark
+Red    #EC7063    #E74C3C    #AD392D
+Blue   #566573    #2C3E50    #212F3C
+White             #ECF0F1    #B1B4B5
+Bluer  #5DADE2    #337ab7    
+
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Open Sans', sans-serif; (400,400i,700,700i)
+
+
+
+OLD COLORS -----------------
+#ff6117 - Orange
+#FFA276 - Lt Orange
+#CDDEEC - Lt Blue
+#0098FF - Blue
+
+
+**/
